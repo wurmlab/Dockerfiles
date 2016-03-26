@@ -1,7 +1,7 @@
 # Provides base image for installing different Ruby versions using
 # gh:postmodern/ruby-install.
 
-FROM        yeban/debian
+FROM        wurmlab/debian
 MAINTAINER  Anurag Priyam <anurag08priyam@gmail.com>
 
 RUN apt-get update && \
