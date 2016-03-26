@@ -10,10 +10,10 @@ RUN apt-get update && \
         libreadline-dev libncurses5-dev libffi-dev && \
     \
     cd /tmp/ && \
-    curl -o ruby-install-0.5.0.tar.gz -L \
-      https://github.com/postmodern/ruby-install/archive/v0.5.0.tar.gz && \
-    tar xvf ruby-install-0.5.0.tar.gz && \
-    cd ruby-install-0.5.0/ && \
+    curl -o ruby-install-0.6.0.tar.gz -L \
+      https://github.com/postmodern/ruby-install/archive/v0.6.0.tar.gz && \
+    tar xvf ruby-install-0.6.0.tar.gz && \
+    cd ruby-install-0.6.0/ && \
     make install && \
     \
     apt-get clean && \
