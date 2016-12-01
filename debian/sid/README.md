@@ -1,3 +1,5 @@
+[![](https://images.microbadger.com/badges/image/wurmlab/debian.svg)](https://microbadger.com/images/wurmlab/debian "Size and num layers badge")
+
 Debian Sid based base-image for building docker images.
 
 Inherits from debian:sid. Configures apt to not install recommended and
